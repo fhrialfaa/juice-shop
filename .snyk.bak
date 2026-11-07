@@ -1,0 +1,10 @@
+version: v1.25.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Belum ada patch resmi. Juice Shop adalah aplikasi latihan yang sengaja rentan dan tidak dideploy ke produksi. Ditinjau ulang sebelum kedaluwarsa.'
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-DECOMPRESS-20254116:
+    - '*':
+        reason: 'Patch belum tersedia pada rantai download@8.0.0 (dependensi transitif) dan Snyk menandai exploit maturity: No known exploit. Ditinjau ulang sebelum kedaluwarsa.'
+        expires: 2026-12-31T00:00:00.000Z

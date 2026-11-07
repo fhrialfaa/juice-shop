@@ -231,7 +231,9 @@
     "@scarf/scarf": false,
     "cypress@15.17.0": true
   },
-  "overrides": {
-    "tar": "^7.5.19"
-  }
+     "overrides": {
+     "sqlite3": {
+       "tar": "^7.5.19"
+     }
+   }
 }
